@@ -1,0 +1,64 @@
+body {
+    background: #fafafa;
+  }
+
+.button a  {
+    
+  font:normal 20px Verdana, Geneva, sans-serif;
+  font-style:normal;
+  color:#000000;
+  background:#f5f5f5;
+  border:1px solid #bbb;
+  text-shadow:0px 1px 0px #fff;
+  box-shadow:0px 1px 10px #d1cfd1;
+  -moz-box-shadow:0px 1px 10px #d1cfd1;
+  -webkit-box-shadow:0px 1px 10px #d1cfd1;
+  border-radius:10px 10px 10px 10px;
+  -moz-border-radius:10px 10px 10px 10px;
+  -webkit-border-radius:10px 10px 10px 10px;
+  width:flex;
+  padding:15px 50px;
+  cursor:pointer;
+  margin:550px ;
+  text-decoration: none;
+}
+
+.button a:active{
+    cursor:pointer;
+    position:relative;
+    top:10px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none; 
+      
+}
+
+.button a:hover{
+ color: #c78c19;
+ 
+}
+
+  .background {
+    position: absolute;
+    bottom: 10px;
+    background-image: url(./img/background.png);
+    background-repeat: repeat-x;
+    animation: slideright 300s infinite linear;
+    -webkit-animation: slideright 00s infinite linear;
+    width: 99%;
+    height: 200px;
+  }
+
+  
+
+  .dino {
+    position: absolute;
+    bottom: 0;
+    background-image: url(./img/dino.png);
+    width: 60px;
+    height: 60px;
+  }
+
+  
